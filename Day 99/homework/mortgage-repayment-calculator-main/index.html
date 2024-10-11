@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="box1">
+                <div class="title">
+                    <h2 style="font-size: 25px; font-weight: 700;">Mortgage Calculator</h2>
+                    <a style="color: black;" href="">Clear All</a>
+                </div>
+                <p>Morgage Amount</p>
+                <div class="input-container">
+                    <span id="euroIcon" class="currency-symbol">€</span>
+                    <input id="money"  class="currency-input" type="text" placeholder="300,000">
+                </div>
+                <div class="mortgagerate">
+                    <div class="text">
+                        <p class="morta">Mortgage Term</p>
+                        <p>Interest Rate</p>
+                    </div>
+                    <div class="mort-input-container" id="secondInputDiv">
+                        <input id="yearsInput" type="text" class="years-input">
+                        <span id="yearsIcon" class="year">years</span>
+                    </div>
+                    <div class="space"></div>
+                    <div id="rateDiv" class="rate-input-cont">
+                        <input id="rateInput" type="text" class="rate-input">
+                        <span id="rateIcon" class="symbol">%</span>
+                    </div>
+                </div>
+                <p class="mortgage">Mortgage Type</p>
+                <div class="Mortgage-Type">
+                    <div id="radioDiv1" class="repayment">
+                        <input style="margin-right: 10px; font-size: 20px;" id="repayment1" type="radio" name="radio">
+                        <label for="repayment1" class="mortgage">Repayment</label>
+                    </div>
+                    <div id="radioDiv2" class="Interest-only">
+                        <input style="margin-right: 10px;" id="Interest-only1" type="radio" name="radio">
+                        <label for="Interest-only1" class="mortgage">Interest-only</label>
+                    </div>
+                    <p id="warning"></p>
+                </div>
+                <div id="btn" class="button">
+                    <img src="./assets/images/icon-calculator.svg" alt="">
+                    <p style="font-weight: 700;">Calculate Repayments</p>
+                </div>
+                
+
+            </div>
+            <div id="box2" class="box2">
+                <img src="./assets/images/illustration-empty.svg" alt="">
+                <h2 style="color: white; font-weight: 600;">Results shown here</h2>
+                <div>
+                    <p style="width: 390px; color: hsl(203, 41%, 72%); font-size: 15px; ">Complete the form and click “calculate repayments” to</p>
+                    <p style="text-align: center; color: hsl(203, 41%, 72%);">see what your monthly repayments would be."</p>
+                </div>
+                
+            </div>
+            <div id="box2f" class="box2f">
+                <h2 style="color: white; font-weight: 500;">Your Results</h2>
+                <div style="width: 450px;">
+                    <p style="color: hsl(202, 33%, 66%); font-size: 15px; font-weight: 500;">Your results are shown below based on the information</p>
+                    <p style="color: hsl(202, 33%, 66%); font-size: 15px; font-weight: 500;" >you provided. To adjust the results, edit the form and</p> 
+                    <p style="color: hsl(202, 33%, 66%); font-size: 15px; font-weight: 500;">click “calculate repayments” again.</p>
+                </div>
+                
+                <div class="result">
+                    <div class="cont">
+                        <p style="color: hsl(202, 33%, 66%);">Your monthly repayments</p>
+                        <p id="result" style="color: hsl(61, 70%, 52%); font-size: 50px; font-weight: 700;">€0</p>
+                        <p style="width: 300px; height: 40px;"></p>
+                        <p></p><hr>
+                        <div class="cont2">
+                            <div class="result2">
+                                <p style="color: hsl(202, 33%, 66%);">Total you'll repay over the term</p>
+                                <p id="result2" style="color: hsl(0, 0%, 100%); font-weight: 500; font-size: 25px;">€0</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
