@@ -33,7 +33,7 @@ function App() {
       <ul>
         {product.map((products, index) => (
           <div>
-            <li onl key={index}>
+            <li  key={index}>
               {products}{" "}
             </li>
             <button onClick={() => remove(index)}>Remove</button>
