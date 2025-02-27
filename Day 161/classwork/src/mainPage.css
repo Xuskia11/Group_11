@@ -1,0 +1,88 @@
+/* MainPage.css */
+
+/* General container styles */
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Textarea styles */
+.textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Visibility wrapper styles */
+.visibilityWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Label styles */
+.label {
+  font-size: 16px;
+}
+
+/* Select box styles */
+.select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button styles */
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Posts wrapper styles */
+.postsWrapper {
+  margin-top: 30px;
+}
+
+/* Individual post card styles */
+.postCard {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* Post visibility text styles */
+.postVisibility {
+  color: #888;
+  font-size: 12px;
+}

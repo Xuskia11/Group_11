@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.3s ease-in-out;
+    background: #f6f8ff;
+    color: #222;
+}
+
+body.dark {
+    background: #141d2f;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.toggle-theme {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.dark .search-box {
+    background: #1e2a47;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    color: inherit;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.search-box button {
+    background: #0079ff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.user-info {
+    display: flex;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+}
+
+.dark .user-info {
+    background: #1e2a47;
+    color: white;
+}
+
+.user-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.details {
+    flex: 1;
+}
+
+.details h2 {
+    font-size: 28px;
+}
+
+.username {
+    color: #0079ff;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.bio {
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+.joined {
+    font-size: 16px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f4ff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.dark .stats {
+    background: #1e2a47;
+    color: white;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #0079ff;
+    text-decoration: none;
+}
+
+.dark {
+    border: none;
+}
